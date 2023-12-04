@@ -19,9 +19,9 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/image3.jpeg";
 
-const imageAltText = "desktop with books and laptop";
+const imageAltText = "woman using surface laptop";
 
 /**
  * Project list
@@ -31,28 +31,22 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "QR Code Scanner",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "A QR code scanner that allows you to scan a QR code and get the information stored in it.",
+    url: "https://meek-tanuki-2da258.netlify.app/",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Product Preview Card",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "A product preview card that allows you to preview a product and get more information about it.",
+    url: "https://steady-faun-82b791.netlify.app/",
   },
   {
-    title: "My Resume Site",
+    title: "Single Price Grid Component",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
-  },
-  {
-    title: "GitHub Codespaces and github.dev",
-    description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "SIngle price grid component that allows you to preview a product and get more information about it.",
+    url: "https://singular-druid-13dd75.netlify.app/",
   },
 ];
 
