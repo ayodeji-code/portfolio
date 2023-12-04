@@ -25,7 +25,7 @@ import "./styles.css";
  */
 const siteProps = {
   name: "Azeez Abdulrahman",
-  title: "Web Desveloper",
+  title: "Web Developer",
   email: "Azeez.Oluwatosin@studentambassadors.com",
   gitHub: "microsoft",
   instagram: "microsoft",
