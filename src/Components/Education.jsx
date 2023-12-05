@@ -5,11 +5,11 @@ const Education = () => {
 
 
     const sectionStyle = {
-        width: "700px",
+        width: "800px",
  
         margin: "auto",
         alignItems: "center",
-        height: "200px" 
+        height: "300px" 
     };
 
 
@@ -20,7 +20,7 @@ const Education = () => {
     };
 
     const gridItemStyle = {
-        padding: "30px",
+        padding: "40px",
         textAlign: "center"
 
     };
@@ -32,7 +32,7 @@ const Education = () => {
         <section className="light" id="education" style={sectionStyle}>
             <h2 id="educationHeader" style={educationHeader}>Education</h2>
             <div className="grid-container" style={gridContainerStyle}>
-                <div className="grid-item" style={gridItemStyle}>Federal University of Technology, Minna, Niger State, Nigeria</div>
+                <div className="grid-item" style={gridItemStyle}>Federal University of Technology, Minna, Niger State, Nigeria.</div>
 
     
 
