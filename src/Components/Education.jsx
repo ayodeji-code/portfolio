@@ -4,12 +4,14 @@ import React from "react";
 const Education = () => {
 
     const sectionStyle = {
-        display: 'flex',
-        justifyContent: 'center',
+        width: '700px',
+        margin: 'auto',
         alignItems: 'center',
         height: '100vh' 
     };
 
+
+ 
 
     const gridContainerStyle = {
         display: 'grid',
@@ -17,6 +19,18 @@ const Education = () => {
     };
 
     const gridItemStyle = {
+
+        padding: '15px'
+    };
+    const educationHeader = {
+        textAlign: 'center'    
+    };
+    return(
+        <section className="light" id="education" style={sectionStyle}>
+            <h2 id="educationHeader" style={educationHeader}>Education</h2>
+            <div className="grid-container" style={gridContainerStyle}>
+                <div className="grid-item" style={gridItemStyle}>Federal University of Technology, Minna, Niger State, Nigeria</div>
+
         border: '1px solid black',
         padding: '10px'
     };
@@ -28,6 +42,7 @@ const Education = () => {
                 <div className="grid-item" style={gridItemStyle}>Federal University of Technology, Minna, Niger State, Nigeria</div>
 
               
+
 
             </div>
         </section>
