@@ -5,7 +5,7 @@
  */
 
 import React from "react";
-
+import Education from "./Components/Education";
 import About from "./Components/About";
 import Footer from "./Components/Footer";
 import Header from "./Components/Header";
@@ -23,6 +23,7 @@ import "./styles.css";
  *
  * If you don't have one of the social sites listed, leave it as an empty string.
  */
+
 const siteProps = {
   name: "Azeez Abdulrahman",
   title: "Web Developer",
@@ -45,6 +46,7 @@ const App = () => {
       <Home name={siteProps.name} title={siteProps.title} />
       <About />
       <Portfolio />
+      <Education />
       <Footer {...siteProps} primaryColor={primaryColor} secondaryColor={secondaryColor} />
     </div>
   );
