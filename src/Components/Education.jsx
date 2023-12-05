@@ -20,7 +20,8 @@ const Education = () => {
     };
 
     const gridItemStyle = {
-        padding: "15px"
+        padding: "30px",
+        textAlign: "center"
 
     };
     const educationHeader = {
