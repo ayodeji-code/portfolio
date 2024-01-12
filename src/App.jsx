@@ -32,9 +32,6 @@ const siteProps = {
   instagram: "microsoft",
 
   linkedIn: "abdulrahmanazeez",
-
-
-main
   medium: "microsoft",
   twitter: "microsoft",
   youTube: "Code",
