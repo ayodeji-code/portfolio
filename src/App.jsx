@@ -30,7 +30,11 @@ const siteProps = {
   email: "Azeez.Oluwatosin@studentambassadors.com",
   gitHub: "ayodeji-code",
   instagram: "microsoft",
-  linkedIn: "abdulrahmanazez",
+
+  linkedIn: "abdulrahmanazeez",
+
+
+main
   medium: "",
   twitter: "microsoft",
   youTube: "Code",
