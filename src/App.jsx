@@ -35,7 +35,7 @@ const siteProps = {
 
 
 main
-  medium: "",
+  medium: "microsoft",
   twitter: "microsoft",
   youTube: "Code",
 };
